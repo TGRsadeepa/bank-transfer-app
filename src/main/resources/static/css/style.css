@@ -1,6 +1,6 @@
-:root { --primary: #4b2589; --light: #efe7fb; --dark: #1e2233; --danger: #d93a3a; --ok: #1f9d55; }
+:root { --primary: #173b67; --light: #e8f0f8; --dark: #17283d; --danger: #d93a3a; --ok: #1f9d55; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: "Segoe UI", Arial, sans-serif; background: #f6f4fb; color: var(--dark); line-height: 1.5; }
+body { font-family: "Segoe UI", Arial, sans-serif; background: #f4f7fa; color: var(--dark); line-height: 1.5; }
 
 .topbar { background: var(--primary); color: #fff; text-align: center; padding: 26px 16px; }
 .topbar p { opacity: .8; }
@@ -43,10 +43,10 @@ input:focus, select:focus { outline: 2px solid var(--primary); }
 
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
-th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #ece7f6; white-space: nowrap; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e4ebf2; white-space: nowrap; }
 th.num, td.num { text-align: right; }
 thead th { background: var(--dark); color: #fff; }
-tbody tr:hover { background: #faf7ff; }
+tbody tr:hover { background: #f5f8fc; }
 .empty { text-align: center; color: #6b7088; padding: 24px; }
 
 .tag { padding: 2px 12px; border-radius: 20px; font-size: .85rem; font-weight: 600; }
