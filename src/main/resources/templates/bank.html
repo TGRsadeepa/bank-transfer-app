@@ -50,12 +50,12 @@
 
         <div class="stat ok">
             <span th:text="${successCount}">0</span>
-            <small>Successful transfers</small>
+            <small>Successful transactions</small>
         </div>
 
         <div class="stat fail">
             <span th:text="${failedCount}">0</span>
-            <small>Failed transfers</small>
+            <small>Failed transactions</small>
         </div>
 
     </section>
@@ -232,7 +232,7 @@
                    placeholder="Search by name...">
 
             <button type="submit" class="btn small">Search</button>
-            <a th:href="@{ / }" class="btn small">Clear</a>
+            <a th:href="@{/}" class="btn small">Clear</a>
         </form>
 
         <div class="table-wrap">
